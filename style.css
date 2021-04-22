@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    max-width: 480px;
+    margin: auto;
+    border: 1px dotted red;
+
+}
+li{
+    list-style: none;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    padding-top: 16px;
+    background: #FFE81A;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+    z-index: 5;
+}
+.main-title{
+    font-size: 26px;
+    font-weight: 800;
+    text-align: center;
+
+}
+.main-section{
+    position: relative;
+    min-height: 515px;
+    background-color: #B3B9BD;
+    background-image: url("./img/mian-section/Group11829.png");
+
+}
+.fromBel{
+    position: absolute;
+    top: -27px;
+    right: -14px                       ;
+    width: 351px;
+    height: 105px;
+    background-image: url("./img/mian-section/Group11830.png");
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 22px;
+    padding-left: 30px;
+    z-index: 10;
+}
+.fromBel__tex{
+    color: #261D88;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 20px;
+}
+.hrMusicBlock{
+    position: absolute;
+    top: 63px;
+    left: 11px;
+    font-size: 20px;
+}
+.hrMusic{
+    color: white;
+    font-weight: 700;
+    line-height: 25px;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+    letter-spacing: 5px;
+}
+.hrMusic_accent{
+    color: #FFEA00;
+    font-weight: 900;
+    height: 0;
+    padding: 0;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+}
+.hrMusic_accent img{
+    vertical-align: middle;
+    margin-left: -2px;
+    margin-right: 4px;
+}
+.icoGroupBrand{
+    position: absolute;
+    top: 179px;
+    left: 68px;
+}
+.icoGroupBrand img{
+    width: 28px;
+}
+.productItself{
+    position: absolute;
+    width: 265px;
+    height: 258px;
+    top: 245px;
+    right: 4px;
+}
+.productItself img{
+    display: block;
+    position: absolute;
+}
+.product{
+    top: -60px;
+}
+.buyDiscount{
+    position: relative;
+}
+.buyDiscount__title{
+    position: absolute;
+    color: white;
+    top: -7px;
+    height: 86px;
+}
+.buyDiscount__title .wrapper{
+    position: relative;
+    height: 102px;
+    width: 480px;
+    overflow: hidden;
+}
+.buyDiscount__title img {
+    display: block;
+    position: absolute;
+    top: -6px;
+    left: 50%;
+    transform: translateX(-50%);
+    filter: drop-shadow(0px 4px 10px rgba(0, 0, 0, 0.25));
+}
+.buyDiscount__title span{
+    display: block;
+    position: absolute;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.buyDiscount__text{
+    top: 0;
+}
+.buyDiscount__title .buyDiscount__proc{
+    font-size: 40px;
+    font-weight: 900;
+}
+.buyDiscount__properties{
+    position: absolute;
+    top: 80px;
+    height: 186px;
+    width: 100%;
+    font-size: 17px;
+    font-weight: 700;
+    text-align: center;
+}
+.buyDiscount__list{
+
+}
+.buyDiscount__item{
+    border: 1px solid #261D88;
+    width: 100%;
+    height: 62px;
+}
